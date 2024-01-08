@@ -5,9 +5,9 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-      <div className="container-fluid">
+      <div>
         <div className="row">
-          <div className="col-md-12 px-0">
+          <div className="col-md-12">
             <Navbar />
             <ImageSlider />
           </div>
